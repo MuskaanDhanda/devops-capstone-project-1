@@ -1,19 +1,22 @@
 # Install Ansible on an Ubuntu EC2 instance
 
-Use an Ubuntu EC2 instance as your Ansible control node. Connect to the instance using SSH, then run:
+Use an Ubuntu EC2 instance as your Ansible control node. Connect to the instance using web, then run:
 
 ```bash
 sudo apt update
-sudo apt install -y ansible
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+```
+
+
+# Verify Installation
+
+Check that Ansible is installed 
+
+```bash
 ansible --version
 ```
 
-If the `ansible` package is not available in the enabled repositories, enable Ubuntu's `universe` repository and try again:
-
-```bash
-sudo add-apt-repository --yes universe
-sudo apt update
-sudo apt install -y ansible
-```
-
 The EC2 instance needs outbound network access to the Ubuntu package repositories, and the connected user needs `sudo` privileges. To manage other EC2 instances with Ansible, configure SSH access and an inventory on the control node.
+
