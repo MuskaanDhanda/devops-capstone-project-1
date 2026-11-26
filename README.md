@@ -47,6 +47,7 @@ The AWS infrastructure includes:
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [install_code.yml](Ansible/install_code.yml) | YAML configuration |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [localhost.sh](Ansible/localhost.sh) | Shell script |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [README.md](Ansible/README.md) | Install Ansible on an Ubuntu EC2 instance |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 [slave.sh](Ansible/slave.sh) | Shell script |
 | 🖼️ [architecture-diagram.png](architecture-diagram.png) | Complete project architecture diagram |
 | 📄 [Architecture.md](Architecture.md) | Detailed architecture, infrastructure, and pipeline documentation |
 | 🖼️ [infra.png](infra.png) | AWS EC2 infrastructure diagram |
