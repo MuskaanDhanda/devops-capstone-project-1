@@ -4,11 +4,12 @@ A hands-on DevOps project demonstrating an end-to-end CI/CD workflow using GitHu
 
 <!-- OVERVIEW:START -->
 | # | Component | Project file | Topics covered |
-|---|---------|--------------|----------------|
+|---|-----------|--------------|----------------|
 | 1 | Architecture | [Architecture Diagram](architecture-diagram.png) | GitHub-to-Jenkins workflow and AWS deployment |
 | 2 | Infrastructure | [AWS EC2 Infrastructure](infra.png) | Jenkins master, test EC2, production EC2, Docker |
 | 3 | Pipeline | [GitHub and Jenkins Pipeline](pipelines.png) | Build, test, develop branch, main branch, production |
 | 4 | Documentation | [Architecture.md](Architecture.md) | Architecture, infrastructure, and pipeline details |
+| 5 | Ansible | [Ansible/](Ansible) | Install Ansible on an Ubuntu EC2 instance |
 <!-- OVERVIEW:END -->
 
 **Tools:** Git, GitHub, Jenkins, Docker, Ansible, Java, AWS EC2, Linux
@@ -40,12 +41,15 @@ The AWS infrastructure includes:
 ## Project files
 
 <!-- PROJECT-FILES:START -->
-| File | What's inside |
-|------|---------------|
-| [Architecture.md](Architecture.md) | Detailed architecture, infrastructure, and pipeline documentation |
-| [architecture-diagram.png](architecture-diagram.png) | Complete project architecture diagram |
-| [infra.png](infra.png) | AWS EC2 infrastructure diagram |
-| [pipelines.png](pipelines.png) | GitHub branch and Jenkins pipeline diagram |
+| File / Folder | What's inside |
+|---------------|---------------|
+| 📁 [Ansible/](Ansible) | Install Ansible on an Ubuntu EC2 instance |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 [install_code.yml](Ansible/install_code.yml) | YAML configuration |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 [README.md](Ansible/README.md) | Install Ansible on an Ubuntu EC2 instance |
+| 🖼️ [architecture-diagram.png](architecture-diagram.png) | Complete project architecture diagram |
+| 📄 [Architecture.md](Architecture.md) | Detailed architecture, infrastructure, and pipeline documentation |
+| 🖼️ [infra.png](infra.png) | AWS EC2 infrastructure diagram |
+| 🖼️ [pipelines.png](pipelines.png) | GitHub branch and Jenkins pipeline diagram |
 <!-- PROJECT-FILES:END -->
 
 ## Adding files to the project
