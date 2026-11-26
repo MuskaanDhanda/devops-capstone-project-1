@@ -1,0 +1,13 @@
+---
+- name: install java and jenkins in localhost
+  hosts: localhost
+  become: true
+  tasks:
+  - name: installing java and jenkins 
+    script: localhost.sh
+- name: install java and docker in test and prod
+  hosts: slave
+  become: true
+  tasks:
+  - name: installing java and docker
+    script: slave.sh
