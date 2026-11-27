@@ -46,6 +46,8 @@ The AWS infrastructure includes:
 | File / Folder | What's inside |
 |---------------|---------------|
 | 📁 [Ansible/](Ansible) | Install Ansible on an Ubuntu EC2 instance |
+| &nbsp;&nbsp;&nbsp;&nbsp;📁 [Images/](Ansible/Images) | Folder |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🖼️ [screenshots.png](Ansible/Images/screenshots.png) | Screenshots image |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [install_code.yml](Ansible/install_code.yml) | YAML configuration |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [Jenkins.md](Ansible/Jenkins.md) | Documentation |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [localhost.sh](Ansible/localhost.sh) | Shell script |
