@@ -1,5 +1,7 @@
 # DevOps Capstone Project 1
 
+[![CI](https://github.com/MuskaanDhanda/devops-capstone-project-1/actions/workflows/ci.yml/badge.svg)](https://github.com/MuskaanDhanda/devops-capstone-project-1/actions/workflows/ci.yml)
+
 A hands-on DevOps project demonstrating an end-to-end CI/CD workflow using GitHub, Jenkins, Docker, Ansible, Java, and AWS EC2. Developer changes trigger the Jenkins pipeline, where code is built, tested, and deployed to test or production environments.
 
 <!-- OVERVIEW:START -->
