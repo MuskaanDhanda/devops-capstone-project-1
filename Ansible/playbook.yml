@@ -1,13 +1,14 @@
 ---
-- name: install java and jenkins in localhost
+- name: Install Java and Jenkins on localhost
   hosts: localhost
   become: true
   tasks:
-  - name: installing java and jenkins 
-    script: localhost.sh
-- name: install java and docker in test and prod
+    - name: Installing Java and Jenkins
+      ansible.builtin.script: localhost.sh
+
+- name: Install Java and Docker on test and prod
   hosts: slave
   become: true
   tasks:
-  - name: installing java and docker
-    script: slave.sh
+    - name: Installing Java and Docker
+      ansible.builtin.script: slave.sh
