@@ -12,6 +12,7 @@ A hands-on DevOps project demonstrating an end-to-end CI/CD workflow using GitHu
 | 3 | Pipeline | [GitHub and Jenkins Pipeline](pipelines.png) | Build, test, develop branch, main branch, production |
 | 4 | Documentation | [Architecture.md](Architecture.md) | Architecture, infrastructure, and pipeline details |
 | 5 | Ansible | [Ansible/](Ansible) | Install Ansible on an Ubuntu EC2 instance |
+| 6 | Main | [Main.md](Main.md) | DevOps Capstone Project 1 |
 <!-- OVERVIEW:END -->
 
 **Tools:** Git, GitHub, Jenkins, Docker, Ansible, Java, AWS EC2, Linux
@@ -176,6 +177,7 @@ The AWS infrastructure includes:
 | 🖼️ [architecture-diagram.png](architecture-diagram.png) | Complete project architecture diagram |
 | 📄 [Architecture.md](Architecture.md) | Detailed architecture, infrastructure, and pipeline documentation |
 | 🖼️ [infra.png](infra.png) | AWS EC2 infrastructure diagram |
+| 📄 [Main.md](Main.md) | DevOps Capstone Project 1 |
 | 🖼️ [pipelines.png](pipelines.png) | GitHub branch and Jenkins pipeline diagram |
 <!-- PROJECT-FILES:END -->
 
