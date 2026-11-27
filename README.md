@@ -46,6 +46,7 @@ The AWS infrastructure includes:
 | 📁 [Ansible/](Ansible) | Install Ansible on an Ubuntu EC2 instance |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [install_code.yml](Ansible/install_code.yml) | YAML configuration |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [Jenkins.md](Ansible/Jenkins.md) | Documentation |
+| &nbsp;&nbsp;&nbsp;&nbsp;📄 [jenkins.md](Ansible/jenkins.md) | DevOps Capstone Project 1 |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [localhost.sh](Ansible/localhost.sh) | Shell script |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [playbook.yml](Ansible/playbook.yml) | YAML configuration |
 | &nbsp;&nbsp;&nbsp;&nbsp;📄 [README.md](Ansible/README.md) | Install Ansible on an Ubuntu EC2 instance |
