@@ -1,1 +1,25 @@
+---
 # Ansible installation playbook
+# Installs Ansible on an Ubuntu control node (same steps as Ansible/README.md).
+# Run with: ansible-playbook install_code.yml
+- name: Install Ansible on the Ubuntu control node
+  hosts: localhost
+  connection: local
+  become: true
+  tasks:
+    - name: Install software-properties-common
+      ansible.builtin.apt:
+        name: software-properties-common
+        state: present
+        update_cache: true
+
+    - name: Add the Ansible PPA
+      ansible.builtin.apt_repository:
+        repo: ppa:ansible/ansible
+        state: present
+
+    - name: Install Ansible
+      ansible.builtin.apt:
+        name: ansible
+        state: present
+        update_cache: true
